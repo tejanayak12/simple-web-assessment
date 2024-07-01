@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Personal Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4715aec2b5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/LogoMakerCa-1690706369369.jpg" class="logo">
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer...</p>
+                <h1>Hi, I'm <span>Teja Nayak</span><br> From Trangla <span> <br>Innovations.</span></h1>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly skilled FrontEnd-Developer with 2+ years of experience in
+                    developing and implementing web applications. Proficient in front-end and back-end technologies, including HTML, CSS, JavaScript,
+                    and database management. Strong problem-solving abilities and a
+                    passion for creating efficient and user-friendly applications.
+                    Excellent communication and teamwork skills.. I'm generally very
+                    flexible when investigating new roles.
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-Contents active-tab" id="skills">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li><span>JavaScript(ES6+)</span></li>
+                        <li><span>TypeScript</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS/Sass</span></li>
+                        <li><span>SQL</span></li>
+                    </ul>
+                    <h3>Libraries & FrameWorks</h3>
+                    <ul>
+                        <li><span>Reactjs</span></li>
+                        <li><span>Nodejs</span></li>
+                        <li><span>Expressjs</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>BootStrap</span></li>
+                        <li><span>jQuery</span></li>
+                    </ul>
+                    <h3>Tools & PlatForms</h3>
+                    <ul>
+                        <li><span>Git</span></li>
+                        <li><span>GitHub</span></li>
+                        <li><span>GitLab</span></li>
+                        <li><span>WebPack</span></li>
+                        <li><span>Vercel</span></li>
+                        <li><span>FireBase</span></li>
+                    </ul>
+                </div>
+                <div class="tab-Contents" id="experience">
+                    <h3>FrontEnd-Developer@Trangla</h3>
+                    <ul>
+                        <li><span>2023 - Current<br></span></li>
+                        <li><span>Developed and maintained responsive web applications using
+                                frontend and Backend technologies</span></li>
+                        <li><span>Worked with the design team to build and maintain user
+                                interfaces for web and mobile applications.
+                            </span></li>
+                        <li><span>Building and maintaining reusable components & libraries.</span></li>
+                        <li><span>Participating in code reviews to ensure that the code adheres
+                                to the standards.</span></li>
+                        <li><span>Collaborated with cross-functional teams to gather
+                                requirements and develop project specifications.</span></li>
+                    </ul>
+                </div>
+                <div class="tab-Contents" id="education">
+                    <ul>
+                        <li><h3>2019-2022</h3>B.com<br>Acharya Nagarjuna University</li>
+                        <li><h3>2017-2019</h3>Intermediate<br>BIEAP</li>
+                        <li><h3>2016-2017</h3>SSC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-------------------------Serviece--------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React JS</h2>
+                <p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>JavaScript(ES6+)</h2>
+                <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>NodeJS</h2>
+                <p> Node. js (Node) is an Open Source, cross-platform runtime environment for executing JavaScript code. Node is used extensively for server-side programming, making it possible for developers to use JavaScript for client-side and server-side code without needing to learn an additional language. </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ecommerce (1).png">
+                <div class="layer">
+                    <h3>Movie and Series Application</h3>
+                    <p>This is a very good example of an intermediate-level React Project. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chat.png">
+                <div class="layer">
+                    <h3>Chat Application</h3>
+                    <p>You can create your chat applications like WhatsApp clone using React and Socket.io. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gallery.png">
+                <div class="layer">
+                    <h3>Photo Gallery Application</h3>
+                    <p>We can build an intermediate-level React project by creating a photo gallery Application.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" , class="btn">See More</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+<div id="contact">
+    <div class="copyright">
+        <P>copyright @ Teja-Nayak.<i class="fa-solid fa-shield-heart"></i></P>
+    </div>
+</div>
